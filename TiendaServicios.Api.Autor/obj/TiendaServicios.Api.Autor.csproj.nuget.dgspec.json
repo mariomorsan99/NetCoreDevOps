@@ -38,6 +38,14 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[9.1.2, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[9.1.2, )"
+            },
             "MediatR.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[8.1.0, )"

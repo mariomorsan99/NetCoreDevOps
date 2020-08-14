@@ -17,6 +17,8 @@ using TiendaServicios.Api.Autor.Aplicacion;
 using Npgsql.EntityFrameworkCore.PostgreSQL;
 using Microsoft.EntityFrameworkCore;
 using MediatR;
+using FluentValidation.AspNetCore;
+
 namespace TiendaServicios.Api.Autor
 {
     public class Startup
@@ -31,13 +33,7 @@ namespace TiendaServicios.Api.Autor
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddControllers();
-
-            // services.AddDbContext<ContextoAutor>(opt=>{
-            //     opt.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"));
-            // });
-
-            
+            services.AddControllers().AddFluentValidation(cfg=> cfg.RegisterValidatorsFromAssemblyContaining<Nuevo>());
 
             services.AddDbContext<ContextoAutor>(options=>{
                 options.UseNpgsql("Server=127.0.0.1;Database=tiendalibroautor;Port=5432;User Id=postgres; Password=lunasa19");

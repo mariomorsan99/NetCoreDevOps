@@ -40,3 +40,7 @@ C:\Master Certificate Azure\DevOps\Tienda\TiendaServicios.Api.Autor\obj\Debug\ne
 C:\Master Certificate Azure\DevOps\Tienda\TiendaServicios.Api.Autor\obj\Debug\netcoreapp3.1\TiendaServicios.Api.Autor.genruntimeconfig.cache
 C:\Master Certificate Azure\DevOps\Tienda\TiendaServicios.Api.Autor\bin\Debug\netcoreapp3.1\MediatR.dll
 C:\Master Certificate Azure\DevOps\Tienda\TiendaServicios.Api.Autor\bin\Debug\netcoreapp3.1\MediatR.Extensions.Microsoft.DependencyInjection.dll
+C:\Master Certificate Azure\DevOps\Tienda\TiendaServicios.Api.Autor\bin\Debug\netcoreapp3.1\FluentValidation.dll
+C:\Master Certificate Azure\DevOps\Tienda\TiendaServicios.Api.Autor\bin\Debug\netcoreapp3.1\FluentValidation.AspNetCore.dll
+C:\Master Certificate Azure\DevOps\Tienda\TiendaServicios.Api.Autor\bin\Debug\netcoreapp3.1\FluentValidation.DependencyInjectionExtensions.dll
+C:\Master Certificate Azure\DevOps\Tienda\TiendaServicios.Api.Autor\obj\Debug\netcoreapp3.1\TiendaServicios.Api.Autor.MvcApplicationPartsAssemblyInfo.cs

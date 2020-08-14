@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "ha/d7fITuFanz7T3Y+BOgX3sGyhgU516Szp5/gCWGzmqiaXx3JvRMrOoAAmRCQLcwRsFHts6IFwrWwoflIpDXA==",
+  "dgSpecHash": "M6aztnJHztJodt6Qfmug565yLhsM86LGcxb7Q28ea/pE0fTGpz/wwaGvq+jdZ5lk0Kbn5YlwvLmJR9edPZRVVg==",
   "success": true,
   "projectFilePath": "C:\\Master Certificate Azure\\DevOps\\Tienda\\TiendaServicios.Api.Autor\\TiendaServicios.Api.Autor.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\52551\\.nuget\\packages\\fluentvalidation\\9.1.2\\fluentvalidation.9.1.2.nupkg.sha512",
+    "C:\\Users\\52551\\.nuget\\packages\\fluentvalidation.aspnetcore\\9.1.2\\fluentvalidation.aspnetcore.9.1.2.nupkg.sha512",
+    "C:\\Users\\52551\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\9.1.2\\fluentvalidation.dependencyinjectionextensions.9.1.2.nupkg.sha512",
     "C:\\Users\\52551\\.nuget\\packages\\mediatr\\8.1.0\\mediatr.8.1.0.nupkg.sha512",
     "C:\\Users\\52551\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\8.1.0\\mediatr.extensions.microsoft.dependencyinjection.8.1.0.nupkg.sha512",
     "C:\\Users\\52551\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.0\\microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512",
