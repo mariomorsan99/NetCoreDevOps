@@ -17,7 +17,7 @@ namespace TiendaServicios.Api.Autor.Modelo
 
         public ICollection<GradoAcademico> ListaGrados{  get; set;}
 
-        public string? AutorLibroGuid { get; set;}
+        public string AutorLibroGuid { get; set;}
 
 
 

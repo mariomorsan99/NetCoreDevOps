@@ -19,7 +19,7 @@ namespace TiendaServicios.Api.Autor.Aplicacion
 
            public DateTime? FechaNacimiento{get; set;}
 
-           public string AutorLibroGuid{get; set;}
+           
 
         }
 
