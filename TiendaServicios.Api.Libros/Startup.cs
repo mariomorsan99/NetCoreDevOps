@@ -16,6 +16,7 @@ using Microsoft.EntityFrameworkCore;
 using TiendaServicios.Api.Libros.Aplicacion;
 using MediatR;
 using FluentValidation.AspNetCore;
+using AutoMapper;
 
 namespace TiendaServicios.Api.Libros
 {
@@ -40,6 +41,7 @@ namespace TiendaServicios.Api.Libros
             });
 
             services.AddMediatR(typeof(Nuevo.Manejador).Assembly);
+             services.AddAutoMapper(typeof(Consulta.Manejador));
 
         }
 

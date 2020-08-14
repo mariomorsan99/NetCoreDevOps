@@ -27,11 +27,17 @@ namespace TiendaServicios.Api.Libros.Controllers
               return await _mediator.Send(data);
         }
 
-        // [HttpGet]
-        // public async Task <ActionResult<List<AutorDto>>> GetAutores()
-        // {
-        //       return await _mediator.Send(new Consulta.ListaAutor());
-        // }
+        [HttpGet]
+        public async Task <ActionResult<List<LibreriaMaterialDto>>> GetLibros()
+        {
+              return await _mediator.Send(new Consulta.Libreria());
+        }
+
+        [HttpGet("{id}")]
+        public async Task <ActionResult<LibreriaMaterialDto>> GetLibros( Guid id)
+        {
+              return await _mediator.Send(new  ConsultaFiltro.LibreriaFiltro{LibreriaMateriaGuid=id});
+        }
        
     }
 }
