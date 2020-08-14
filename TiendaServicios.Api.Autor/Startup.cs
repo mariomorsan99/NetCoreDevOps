@@ -18,6 +18,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL;
 using Microsoft.EntityFrameworkCore;
 using MediatR;
 using FluentValidation.AspNetCore;
+using AutoMapper;
 
 namespace TiendaServicios.Api.Autor
 {
@@ -41,6 +42,7 @@ namespace TiendaServicios.Api.Autor
             });
 
             services.AddMediatR(typeof(Nuevo.Manejador).Assembly);
+            services.AddAutoMapper(typeof(Consulta.Manejador));
 
         }
 

@@ -44,3 +44,5 @@ C:\Master Certificate Azure\DevOps\Tienda\TiendaServicios.Api.Autor\bin\Debug\ne
 C:\Master Certificate Azure\DevOps\Tienda\TiendaServicios.Api.Autor\bin\Debug\netcoreapp3.1\FluentValidation.AspNetCore.dll
 C:\Master Certificate Azure\DevOps\Tienda\TiendaServicios.Api.Autor\bin\Debug\netcoreapp3.1\FluentValidation.DependencyInjectionExtensions.dll
 C:\Master Certificate Azure\DevOps\Tienda\TiendaServicios.Api.Autor\obj\Debug\netcoreapp3.1\TiendaServicios.Api.Autor.MvcApplicationPartsAssemblyInfo.cs
+C:\Master Certificate Azure\DevOps\Tienda\TiendaServicios.Api.Autor\bin\Debug\netcoreapp3.1\AutoMapper.dll
+C:\Master Certificate Azure\DevOps\Tienda\TiendaServicios.Api.Autor\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
